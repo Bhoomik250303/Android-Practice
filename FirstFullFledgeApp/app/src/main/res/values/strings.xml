@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">First FullFledge App</string>
+    <string name="user_name">Enter the Name who want to be friend with me</string>
+</resources>

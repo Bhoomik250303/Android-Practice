@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000104"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="48dp"
+        app:srcCompat="@drawable/calculator" />
+
+    <EditText
+        android:id="@+id/etFirstNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="Enter First number"
+        android:inputType="number"
+        android:padding="16px"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/etSecondNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Enter second number"
+        android:inputType="number"
+        android:padding="16px"
+        android:textColorHint="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textviewOutputNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16px"
+        android:text="Answer" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/black"
+        android:padding="16px"
+        android:text="@string/plus"
+        android:textColor="#FFEB3B"
+        android:textStyle="bold"
+        app:backgroundTint="@color/teal_700" />
+
+    <Button
+        android:id="@+id/subButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/black"
+        android:padding="16px"
+        android:text="-"
+        android:textColor="#FFEB3B"
+        android:textStyle="bold"
+        app:backgroundTint="@color/teal_700" />
+
+    <Button
+        android:id="@+id/multiButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/black"
+        android:padding="16px"
+        android:text="x"
+        android:textColor="#FFEB3B"
+        android:textStyle="bold"
+        app:backgroundTint="@color/teal_700" />
+
+    <Button
+        android:id="@+id/divButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/black"
+        android:padding="16px"
+        android:text="/"
+        android:textColor="#FFEB3B"
+        android:textStyle="bold"
+        app:backgroundTint="@color/teal_700" />
+</LinearLayout>
